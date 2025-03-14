@@ -49,7 +49,7 @@
 |**40**|MQ-7|https://drive.google.com/file/d/17it72v0w9lBkBrpdqchWpkSQFY2sDQMX/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/8a981e61-a8ba-4f19-86a0-1e8cfafd7aa3" width="400"/>|
 |**41**|MQ-9|https://drive.google.com/file/d/1ZOAczfJA_9G6XXM4RUNMcAhZ1nwNR77n/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/830d394a-53d6-4934-8fce-7cabc8327667" width="400"/>|
 |**42**|MQ-135|https://drive.google.com/file/d/1QY1vM2VKxNfBuyY1_66ZpfQhu2sQ7JMV/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/42b1eeb6-2094-474f-a48b-4a4815a198bc" width="400"/>|
-|**43**|PWM|https://drive.google.com/file/d/1IDSytBhEueyrSejyhkh4kgIrnRAm0X3m/view?usp=drive_link|<img src="Diagramas/MQ-6.png" width="400"/>|
+|**43**|PWM|https://drive.google.com/file/d/1IDSytBhEueyrSejyhkh4kgIrnRAm0X3m/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/6b76640a-7e6c-496a-837e-2a1e36f7822c" width="400"/>|
 
 
 
