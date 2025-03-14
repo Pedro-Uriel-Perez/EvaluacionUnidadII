@@ -15,7 +15,6 @@
 |**Numero**|**Nombre**|**Video**|**Diagrama**|
 |--|--|--|--|
 |**1**|KY-001|https://drive.google.com/file/d/1hYTIuuTP0OV7asaFfX3nkSzYbrx2A1aA/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/c1727314-5f37-4e79-b7d1-e3d83caba22f" width="400"/>|
-
 |**2**|KY-002|https://drive.google.com/file/d/1YD9VnDaqEqvdPWZXczzqXCQVwvgqJfnQ/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/5b464275-7110-4dc6-a13d-1e7a43ec18c9" width="400"/>|
 
 |**3**|KY-003|https://drive.google.com/file/d/1S7QXTrKFxg2GjcT2m0PQYYAail7S1ScZ/view?usp=drive_link|<img src="Diagramas/KY-003.png" width="400"/>|
