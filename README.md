@@ -1,15 +1,10 @@
 # EvaluacionUnidadII
 
-# AIoT_EvaluacionUnidadII
-
-# Evidencia Curso Cisco JavaScript Essentials 2
-|Modulo|Evidencia|
-|--|--|
-|**Modulo 1**|<img src="https://github.com/user-attachments/assets/b1c36a89-89aa-4f9f-a873-ee2594c3565c" width="600"/>|
-|**Modulo 2**|<img src="https://github.com/user-attachments/assets/5f8a1dd9-60c5-48cb-9f8c-96879263c25c" width="600"/>|
-|**Modulo 33**|<img src="https://github.com/user-attachments/assets/9896b1dc-8032-4da2-b943-91185a5732b6" width="600"/>|
-|**Modulo 4**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
-|**Prueba Final**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
+## Información
+- **Alumno:** Pedro Uriel Pérez Monzón
+- **Grupo:** GDS0653
+- **N.Control:**  1223100428
+- **Materia:**  Aplicaciones de IoT
 
 # Ejercicios Sensores KY y MQ
 |**Numero**|**Nombre**|**Video**|**Diagrama**|
@@ -55,3 +50,15 @@
 |**41**|MQ-9|https://drive.google.com/file/d/1ZOAczfJA_9G6XXM4RUNMcAhZ1nwNR77n/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/830d394a-53d6-4934-8fce-7cabc8327667" width="400"/>|
 |**42**|MQ-135|https://drive.google.com/file/d/1QY1vM2VKxNfBuyY1_66ZpfQhu2sQ7JMV/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/42b1eeb6-2094-474f-a48b-4a4815a198bc" width="400"/>|
 |**43**|PWM|https://drive.google.com/file/d/1IDSytBhEueyrSejyhkh4kgIrnRAm0X3m/view?usp=drive_link|<img src="Diagramas/MQ-6.png" width="400"/>|
+
+
+
+# Evidencia Curso Cisco JavaScript Essentials 2
+|Modulo|Evidencia|
+|--|--|
+|**Modulo 1**|<img src="https://github.com/user-attachments/assets/b1c36a89-89aa-4f9f-a873-ee2594c3565c" width="600"/>|
+|**Modulo 2**|<img src="https://github.com/user-attachments/assets/5f8a1dd9-60c5-48cb-9f8c-96879263c25c" width="600"/>|
+|**Modulo 33**|<img src="https://github.com/user-attachments/assets/9896b1dc-8032-4da2-b943-91185a5732b6" width="600"/>|
+|**Modulo 4**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
+|**Prueba Final**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
+
