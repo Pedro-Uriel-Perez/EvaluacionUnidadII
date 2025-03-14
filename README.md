@@ -14,7 +14,7 @@
 # Ejercicios Sensores KY y MQ
 |**Numero**|**Nombre**|**Video**|**Diagrama**|
 |--|--|--|--|
-|**1**|KY-001|https://github.com/user-attachments/assets/60f83daa-e973-4ee2-b655-4c432f99fe38|<img src="Diagramas/KY-001.png" width="400"/>|
+|**1**|KY-001|https://drive.google.com/file/d/1hYTIuuTP0OV7asaFfX3nkSzYbrx2A1aA/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/c1727314-5f37-4e79-b7d1-e3d83caba22f" width="400"/>|
 
 |**2**|KY-002|https://drive.google.com/file/d/18AHN1_UffRVqYxYzjGqju6kamOQBQlE6/view?usp=drive_link|<img src="Diagramas/KY-002.png" width="400"/>|
 
