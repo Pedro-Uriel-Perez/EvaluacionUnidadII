@@ -5,12 +5,11 @@
 # Evidencia Curso Cisco JavaScript Essentials 2
 |Modulo|Evidencia|
 |--|--|
-|**1**|<img src="https://github.com/user-attachments/assets/b1c36a89-89aa-4f9f-a873-ee2594c3565c" width="600"/>|
-|**2**|<img src="https://github.com/user-attachments/assets/5f8a1dd9-60c5-48cb-9f8c-96879263c25c" width="600"/>|
-|**3**|<img src="https://github.com/user-attachments/assets/9896b1dc-8032-4da2-b943-91185a5732b6" width="600"/>|
-|**4**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
+|**Modulo 1**|<img src="https://github.com/user-attachments/assets/b1c36a89-89aa-4f9f-a873-ee2594c3565c" width="600"/>|
+|**Modulo 2**|<img src="https://github.com/user-attachments/assets/5f8a1dd9-60c5-48cb-9f8c-96879263c25c" width="600"/>|
+|**Modulo 33**|<img src="https://github.com/user-attachments/assets/9896b1dc-8032-4da2-b943-91185a5732b6" width="600"/>|
+|**Modulo 4**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
 |**Prueba Final**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
-|**Prueba Final**|https://github.com/user-attachments/assets/97015e89-aa17-4517-942f-365a8cfa61dc" width="600"/>|
 
 # Ejercicios Sensores KY y MQ
 |**Numero**|**Nombre**|**Video**|**Diagrama**|
