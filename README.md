@@ -60,5 +60,5 @@
 |**Modulo 2**|<img src="https://github.com/user-attachments/assets/5f8a1dd9-60c5-48cb-9f8c-96879263c25c" width="600"/>|
 |**Modulo 33**|<img src="https://github.com/user-attachments/assets/9896b1dc-8032-4da2-b943-91185a5732b6" width="600"/>|
 |**Modulo 4**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
-|**Prueba Final**|<img src="https://github.com/user-attachments/assets/770f1374-6155-4679-bf4d-42fa3cb478e1" width="600"/>|
+|**Prueba Final**|<img src="https://github.com/user-attachments/assets/685e381f-a383-44fa-839a-c00601f6b5f3" width="600"/>|
 
