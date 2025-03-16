@@ -54,7 +54,8 @@
 # Ejercicio de Soldadura
 | Imagen Uno | Imagen Dos |
 |----------|----------|
-|![Imagen de WhatsApp 2025-02-07 a las 10 42 37_f6588a44](https://github.com/user-attachments/assets/8358b9a9-5d39-4583-8421-015ac53ab32a)|![Imagen de WhatsApp 2025-02-07 a las 10 42 37_b0a23419](https://github.com/user-attachments/assets/ab02f694-28e6-4401-93b9-dbaf6842f64a)|
+|![Imagen de WhatsApp 2025-03-16 a las 17 22 11_4f75cbdf](https://github.com/user-attachments/assets/7ecd4afd-ee9a-478c-a0c4-780674862797)
+|![Imagen de WhatsApp 2025-03-16 a las 17 23 00_4c742450](https://github.com/user-attachments/assets/f9df5a24-1819-4639-9623-2cba3cf40694)|
 
 
 
