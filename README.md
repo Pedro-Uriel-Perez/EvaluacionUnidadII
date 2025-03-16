@@ -52,6 +52,12 @@
 |**43**|PWM|https://drive.google.com/file/d/1IDSytBhEueyrSejyhkh4kgIrnRAm0X3m/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/6b76640a-7e6c-496a-837e-2a1e36f7822c" width="400"/>|
 
 # Ejercicio de Soldadura
+| Imagen Uno | Imagen Dos |
+|----------|----------|
+|![Imagen de WhatsApp 2025-02-07 a las 10 42 37_f6588a44](https://github.com/user-attachments/assets/8358b9a9-5d39-4583-8421-015ac53ab32a)|![Imagen de WhatsApp 2025-02-07 a las 10 42 37_b0a23419](https://github.com/user-attachments/assets/ab02f694-28e6-4401-93b9-dbaf6842f64a)|
+
+
+
 
 
 # Evidencia Curso Cisco JavaScript Essentials 2
