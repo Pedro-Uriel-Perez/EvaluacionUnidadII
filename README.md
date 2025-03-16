@@ -10,9 +10,9 @@
 
 
 # Ejercicios Sensores KY y MQ
-|**Numero**|**Nombre y Video**|**Diagrama**|
+|**Numero**|**Nombre**|**Video**|**Diagrama**|
 |--|--|--|
-|**1**|https://drive.google.com/file/d/1hYTIuuTP0OV7asaFfX3nkSzYbrx2A1aA/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/c1727314-5f37-4e79-b7d1-e3d83caba22f" width="400"/>|
+|**1**|KY-001|https://drive.google.com/file/d/1hYTIuuTP0OV7asaFfX3nkSzYbrx2A1aA/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/c1727314-5f37-4e79-b7d1-e3d83caba22f" width="400"/>|
 |**2**|KY-002|https://drive.google.com/file/d/1YD9VnDaqEqvdPWZXczzqXCQVwvgqJfnQ/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/5b464275-7110-4dc6-a13d-1e7a43ec18c9" width="400"/>|
 |**3**|KY-003|https://drive.google.com/file/d/1j9hXCKbaB65wFg4WpZDtBSXoty9vSPCr/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/4fddcc07-b9d5-4be4-a249-b92c037c391e" width="400"/>|
 |**4**|KY-004|https://drive.google.com/file/d/13Gm3IwvsELKUvLrD-SjA0qNEr3OOFlQQ/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/530be4c2-0f73-4dee-adca-b67e08c2e056" width="400"/>|
