@@ -51,13 +51,13 @@
 |**42**|MQ-135|https://drive.google.com/file/d/1QY1vM2VKxNfBuyY1_66ZpfQhu2sQ7JMV/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/42b1eeb6-2094-474f-a48b-4a4815a198bc" width="400"/>|
 |**43**|PWM|https://drive.google.com/file/d/1IDSytBhEueyrSejyhkh4kgIrnRAm0X3m/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/6b76640a-7e6c-496a-837e-2a1e36f7822c" width="400"/>|
 
+# Códigos Sensores  
+[Códigos Sensores KY Y MQ](https://github.com/Pedro-Uriel-Perez/EvaluacionUnidadII/tree/main/Codigos%20Sensores%20KY%20Y%20MQ)
+
 # Evidencia de soldadura
 | Imagen Uno | Imagen Dos |
 |-----------|-----------|
 | <img src="https://github.com/user-attachments/assets/7ecd4afd-ee9a-478c-a0c4-780674862797" width="200"/> | <img src="https://github.com/user-attachments/assets/f9df5a24-1819-4639-9623-2cba3cf40694" width="200"/> |
-
-
-
 
 # Evidencia Curso Cisco JavaScript Essentials 2
 |Modulo|Evidencia|
