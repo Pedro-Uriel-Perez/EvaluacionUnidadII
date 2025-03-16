@@ -51,6 +51,7 @@
 |**42**|MQ-135|https://drive.google.com/file/d/1QY1vM2VKxNfBuyY1_66ZpfQhu2sQ7JMV/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/42b1eeb6-2094-474f-a48b-4a4815a198bc" width="400"/>|
 |**43**|PWM|https://drive.google.com/file/d/1IDSytBhEueyrSejyhkh4kgIrnRAm0X3m/view?usp=drive_link|<img src="https://github.com/user-attachments/assets/6b76640a-7e6c-496a-837e-2a1e36f7822c" width="400"/>|
 
+# Ejercicio de Soldadura
 
 
 # Evidencia Curso Cisco JavaScript Essentials 2
