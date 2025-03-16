@@ -1,0 +1,2418 @@
+[
+    {
+        "id": "7257e3445c4c2c70",
+        "type": "tab",
+        "label": "ActuadorRGB",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5875847bde38d3e6",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-001",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 200,
+        "wires": [
+            [
+                "f5f7513a35c011ee"
+            ]
+        ]
+    },
+    {
+        "id": "0839d8c9120cad04",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f5f7513a35c011ee",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (1,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 200,
+        "wires": [
+            [
+                "0839d8c9120cad04"
+            ]
+        ]
+    },
+    {
+        "id": "0b8d2636ac62b77d",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-002",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 260,
+        "wires": [
+            [
+                "6afa01b8ae658b7a"
+            ]
+        ]
+    },
+    {
+        "id": "0a682e6ff60c2e20",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "6afa01b8ae658b7a",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (2,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 260,
+        "wires": [
+            [
+                "0a682e6ff60c2e20"
+            ]
+        ]
+    },
+    {
+        "id": "16e71e3977d898be",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-003",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 320,
+        "wires": [
+            [
+                "a01e8a5b68e8df0f"
+            ]
+        ]
+    },
+    {
+        "id": "ea807f31ea383b2d",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "a01e8a5b68e8df0f",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (3,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 320,
+        "wires": [
+            [
+                "ea807f31ea383b2d"
+            ]
+        ]
+    },
+    {
+        "id": "0ea71f2c2c5171d1",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-004",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 380,
+        "wires": [
+            [
+                "227456c37f3d9b1c"
+            ]
+        ]
+    },
+    {
+        "id": "10e37b3030e536ac",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "227456c37f3d9b1c",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (4,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 380,
+        "wires": [
+            [
+                "10e37b3030e536ac"
+            ]
+        ]
+    },
+    {
+        "id": "cd13111edbf7c32f",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-005",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 440,
+        "wires": [
+            [
+                "3631682cb8288553"
+            ]
+        ]
+    },
+    {
+        "id": "48b7776d141c5506",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "3631682cb8288553",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (5,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 440,
+        "wires": [
+            [
+                "48b7776d141c5506"
+            ]
+        ]
+    },
+    {
+        "id": "7d8be91790e2bc01",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-006",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 500,
+        "wires": [
+            [
+                "457064000551c58f"
+            ]
+        ]
+    },
+    {
+        "id": "7f403553dd7cb6be",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "457064000551c58f",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (6,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 500,
+        "wires": [
+            [
+                "7f403553dd7cb6be"
+            ]
+        ]
+    },
+    {
+        "id": "ed6597c61039295a",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-008",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 560,
+        "wires": [
+            [
+                "c3dd6f871e76bcdd"
+            ]
+        ]
+    },
+    {
+        "id": "247d8d7ac92cfed2",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "c3dd6f871e76bcdd",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (7,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "247d8d7ac92cfed2"
+            ]
+        ]
+    },
+    {
+        "id": "e67b6aabfa99ef43",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-010",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 620,
+        "wires": [
+            [
+                "dbdabe6d62c6225c"
+            ]
+        ]
+    },
+    {
+        "id": "922ca4282cfad1b5",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "dbdabe6d62c6225c",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (8,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 620,
+        "wires": [
+            [
+                "922ca4282cfad1b5"
+            ]
+        ]
+    },
+    {
+        "id": "195d81318cc461e2",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-012",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 740,
+        "wires": [
+            [
+                "641f970c592731a0"
+            ]
+        ]
+    },
+    {
+        "id": "ef34e9e235f4941d",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "641f970c592731a0",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (9,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 740,
+        "wires": [
+            [
+                "ef34e9e235f4941d"
+            ]
+        ]
+    },
+    {
+        "id": "e35ea36535f2e70c",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-013",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 800,
+        "wires": [
+            [
+                "78ffd4f9c3bbea31"
+            ]
+        ]
+    },
+    {
+        "id": "2c2ae36330735a38",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "78ffd4f9c3bbea31",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (10,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 800,
+        "wires": [
+            [
+                "2c2ae36330735a38"
+            ]
+        ]
+    },
+    {
+        "id": "cb87a2bab9607211",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-015",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 860,
+        "wires": [
+            [
+                "c7d61d9be775355c"
+            ]
+        ]
+    },
+    {
+        "id": "818f7739ca2f63fc",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "c7d61d9be775355c",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (11,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 860,
+        "wires": [
+            [
+                "818f7739ca2f63fc"
+            ]
+        ]
+    },
+    {
+        "id": "2d74349123d99444",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-016",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 920,
+        "wires": [
+            [
+                "3c745d583256cdb7"
+            ]
+        ]
+    },
+    {
+        "id": "2c68887f33a5a479",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "3c745d583256cdb7",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (12,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 920,
+        "wires": [
+            [
+                "2c68887f33a5a479"
+            ]
+        ]
+    },
+    {
+        "id": "0b7b9d79dcea4608",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-017",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 980,
+        "wires": [
+            [
+                "c0256fee99f012bb"
+            ]
+        ]
+    },
+    {
+        "id": "e6bd527cf22d33a1",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 14",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "c0256fee99f012bb",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (13,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 980,
+        "wires": [
+            [
+                "e6bd527cf22d33a1"
+            ]
+        ]
+    },
+    {
+        "id": "36b6639927468599",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-019",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1100,
+        "wires": [
+            [
+                "8eb71a2b908edc6c"
+            ]
+        ]
+    },
+    {
+        "id": "240f92c01531fc92",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "8eb71a2b908edc6c",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (14,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1100,
+        "wires": [
+            [
+                "240f92c01531fc92"
+            ]
+        ]
+    },
+    {
+        "id": "92fc13e3933ab071",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-020",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1160,
+        "wires": [
+            [
+                "8f86b415c33567e8"
+            ]
+        ]
+    },
+    {
+        "id": "ea72af5d8fc2fb7e",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 17",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "8f86b415c33567e8",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (15,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1160,
+        "wires": [
+            [
+                "ea72af5d8fc2fb7e"
+            ]
+        ]
+    },
+    {
+        "id": "a7a733de80e6e838",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-021",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1220,
+        "wires": [
+            [
+                "5a25eff994a6efd7"
+            ]
+        ]
+    },
+    {
+        "id": "7d409e2cf3e822fb",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "5a25eff994a6efd7",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (16,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1220,
+        "wires": [
+            [
+                "7d409e2cf3e822fb"
+            ]
+        ]
+    },
+    {
+        "id": "85c9926ec4ce239c",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-022",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1280,
+        "wires": [
+            [
+                "b1a71c33a92996bb"
+            ]
+        ]
+    },
+    {
+        "id": "133e1fc3ebc1eff3",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "b1a71c33a92996bb",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (17,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1280,
+        "wires": [
+            [
+                "133e1fc3ebc1eff3"
+            ]
+        ]
+    },
+    {
+        "id": "2f27fdc7e567c3a9",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-023",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1340,
+        "wires": [
+            [
+                "929f62bc9d16f83a"
+            ]
+        ]
+    },
+    {
+        "id": "d36ec05b92aa5b12",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 20",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "929f62bc9d16f83a",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (18,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1340,
+        "wires": [
+            [
+                "d36ec05b92aa5b12"
+            ]
+        ]
+    },
+    {
+        "id": "94b10bfccdf72771",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-025",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1460,
+        "wires": [
+            [
+                "9cd08509dc6c4974"
+            ]
+        ]
+    },
+    {
+        "id": "eb8f8be838f4f32b",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "9cd08509dc6c4974",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (19,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1460,
+        "wires": [
+            [
+                "eb8f8be838f4f32b"
+            ]
+        ]
+    },
+    {
+        "id": "e203098c8443d7a9",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-026",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1520,
+        "wires": [
+            [
+                "1d06f80402ee8f88"
+            ]
+        ]
+    },
+    {
+        "id": "9a24a05f9f705706",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 23",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "1d06f80402ee8f88",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (20,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1520,
+        "wires": [
+            [
+                "9a24a05f9f705706"
+            ]
+        ]
+    },
+    {
+        "id": "3e60d5eb8f6063e8",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-027",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1580,
+        "wires": [
+            [
+                "ef1e11333290d1a9"
+            ]
+        ]
+    },
+    {
+        "id": "02f938a85b1d3b3c",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 24",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "ef1e11333290d1a9",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (21,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1580,
+        "wires": [
+            [
+                "02f938a85b1d3b3c"
+            ]
+        ]
+    },
+    {
+        "id": "489f2046240e3849",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-028",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1640,
+        "wires": [
+            [
+                "8bc4eddef0e10bff"
+            ]
+        ]
+    },
+    {
+        "id": "70116fa5e2d9efd0",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 25",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "8bc4eddef0e10bff",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (22,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1640,
+        "wires": [
+            [
+                "70116fa5e2d9efd0"
+            ]
+        ]
+    },
+    {
+        "id": "9f78ec0d89858ede",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-029",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1700,
+        "wires": [
+            [
+                "0c3f7df8d8e56c10"
+            ]
+        ]
+    },
+    {
+        "id": "5edae7df3fb05724",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 26",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "0c3f7df8d8e56c10",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (23,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1700,
+        "wires": [
+            [
+                "5edae7df3fb05724"
+            ]
+        ]
+    },
+    {
+        "id": "d42854c866e62c91",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-031",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1760,
+        "wires": [
+            [
+                "7d69dd1a9c9aac3f"
+            ]
+        ]
+    },
+    {
+        "id": "5216c17b0d01a387",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 27",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "7d69dd1a9c9aac3f",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (24,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1760,
+        "wires": [
+            [
+                "5216c17b0d01a387"
+            ]
+        ]
+    },
+    {
+        "id": "4e4cf429652bf523",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-032",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1820,
+        "wires": [
+            [
+                "1e18efa367e16579"
+            ]
+        ]
+    },
+    {
+        "id": "73e000bdd0690bb1",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "1e18efa367e16579",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (25,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1820,
+        "wires": [
+            [
+                "73e000bdd0690bb1"
+            ]
+        ]
+    },
+    {
+        "id": "8a13a3f6d9ee97bf",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-033",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1880,
+        "wires": [
+            [
+                "9e1c84c6413bd4fe"
+            ]
+        ]
+    },
+    {
+        "id": "932f115172f93159",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 29",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "9e1c84c6413bd4fe",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (26,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1880,
+        "wires": [
+            [
+                "932f115172f93159"
+            ]
+        ]
+    },
+    {
+        "id": "9a314474c1037bfe",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-034",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 1940,
+        "wires": [
+            [
+                "a09afd214a4192ab"
+            ]
+        ]
+    },
+    {
+        "id": "8db7eaf822b80781",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 30",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "a09afd214a4192ab",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (27,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 1940,
+        "wires": [
+            [
+                "8db7eaf822b80781"
+            ]
+        ]
+    },
+    {
+        "id": "0a9f9093d4828018",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-035",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2000,
+        "wires": [
+            [
+                "342c18c2eee0098c"
+            ]
+        ]
+    },
+    {
+        "id": "61c677747694f82c",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 31",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "342c18c2eee0098c",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (28,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2000,
+        "wires": [
+            [
+                "61c677747694f82c"
+            ]
+        ]
+    },
+    {
+        "id": "4b2b883c1c127447",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-036",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2060,
+        "wires": [
+            [
+                "10ab0d35db562515"
+            ]
+        ]
+    },
+    {
+        "id": "a97546b9ddfdb3f6",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 32",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "10ab0d35db562515",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (29,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2060,
+        "wires": [
+            [
+                "a97546b9ddfdb3f6"
+            ]
+        ]
+    },
+    {
+        "id": "72f70516979d153b",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-037",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2120,
+        "wires": [
+            [
+                "8d8f8289af34e96e"
+            ]
+        ]
+    },
+    {
+        "id": "f12bdcf8cb290fea",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 33",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "8d8f8289af34e96e",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (30,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2120,
+        "wires": [
+            [
+                "f12bdcf8cb290fea"
+            ]
+        ]
+    },
+    {
+        "id": "cadf1fe9b3c3bcdb",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-038",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2180,
+        "wires": [
+            [
+                "8acfef28b5e23ea4"
+            ]
+        ]
+    },
+    {
+        "id": "2834f5988a9120bb",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 34",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "8acfef28b5e23ea4",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (31,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2180,
+        "wires": [
+            [
+                "2834f5988a9120bb"
+            ]
+        ]
+    },
+    {
+        "id": "32c9e54af24d2abe",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-039",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2240,
+        "wires": [
+            [
+                "ba6db679583df6bb"
+            ]
+        ]
+    },
+    {
+        "id": "c2ce087e37276813",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 35",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "ba6db679583df6bb",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (32,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2240,
+        "wires": [
+            [
+                "c2ce087e37276813"
+            ]
+        ]
+    },
+    {
+        "id": "f6c845e9bdfeabce",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/ky-040",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2300,
+        "wires": [
+            [
+                "8a549cf660fd12bb"
+            ]
+        ]
+    },
+    {
+        "id": "406c1992790c88a8",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 36",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "8a549cf660fd12bb",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (33,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2300,
+        "wires": [
+            [
+                "406c1992790c88a8"
+            ]
+        ]
+    },
+    {
+        "id": "ecc3f831bbfd1692",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/mq-2",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2360,
+        "wires": [
+            [
+                "d1a66313501f448c"
+            ]
+        ]
+    },
+    {
+        "id": "0705dcc2dbbe9eb7",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 37",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "d1a66313501f448c",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (34,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2360,
+        "wires": [
+            [
+                "0705dcc2dbbe9eb7"
+            ]
+        ]
+    },
+    {
+        "id": "ab005e8ee6ffd2db",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/mq-3",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2420,
+        "wires": [
+            [
+                "58a53db491f4642b"
+            ]
+        ]
+    },
+    {
+        "id": "dbe80de6083bb91e",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 38",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "58a53db491f4642b",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (35,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2420,
+        "wires": [
+            [
+                "dbe80de6083bb91e"
+            ]
+        ]
+    },
+    {
+        "id": "63cd80f3d0b753e7",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/mq-4",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2480,
+        "wires": [
+            [
+                "9e82e5901f9b40f9"
+            ]
+        ]
+    },
+    {
+        "id": "f8ea1e6bbf4a79d1",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 39",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "9e82e5901f9b40f9",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (36,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2480,
+        "wires": [
+            [
+                "f8ea1e6bbf4a79d1"
+            ]
+        ]
+    },
+    {
+        "id": "ac82df590ab88ab7",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/mq-5",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2540,
+        "wires": [
+            [
+                "aa1b22987293d2a1"
+            ]
+        ]
+    },
+    {
+        "id": "9463fcf98d5a6b99",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 40",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "aa1b22987293d2a1",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (37,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2540,
+        "wires": [
+            [
+                "9463fcf98d5a6b99"
+            ]
+        ]
+    },
+    {
+        "id": "a77a149603cf114f",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/mq-6",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2600,
+        "wires": [
+            [
+                "24e04ee727fc2a14"
+            ]
+        ]
+    },
+    {
+        "id": "3bae9872a7ce3e8c",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 41",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "24e04ee727fc2a14",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (38,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2600,
+        "wires": [
+            [
+                "3bae9872a7ce3e8c"
+            ]
+        ]
+    },
+    {
+        "id": "d622a5e271bf3e8f",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 42",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2660,
+        "wires": []
+    },
+    {
+        "id": "4f3bd19cb494018b",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (39,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2660,
+        "wires": [
+            [
+                "d622a5e271bf3e8f"
+            ]
+        ]
+    },
+    {
+        "id": "43f8946ff2e0d415",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/mq-7",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2660,
+        "wires": [
+            [
+                "4f3bd19cb494018b"
+            ]
+        ]
+    },
+    {
+        "id": "0dc5d64255536a51",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "763447964f072779",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (40,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2720,
+        "wires": [
+            [
+                "0dc5d64255536a51"
+            ]
+        ]
+    },
+    {
+        "id": "83aaa18937d68324",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/mq-9",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2720,
+        "wires": [
+            [
+                "763447964f072779"
+            ]
+        ]
+    },
+    {
+        "id": "7ac1fb5064eca8e2",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "14266d2ffd29bad1",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (41,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2780,
+        "wires": [
+            [
+                "7ac1fb5064eca8e2"
+            ]
+        ]
+    },
+    {
+        "id": "644accd676aa73be",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/mq-135",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2780,
+        "wires": [
+            [
+                "14266d2ffd29bad1"
+            ]
+        ]
+    },
+    {
+        "id": "910dca035c2d9cd4",
+        "type": "debug",
+        "z": "7257e3445c4c2c70",
+        "name": "debug 21",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 2840,
+        "wires": []
+    },
+    {
+        "id": "bb86f4bcc39b15f5",
+        "type": "postgresql",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "query": "INSERT INTO sensor_details (sensor_id, user_id, value) VALUES (42,1,'{{{msg.payload}}}');",
+        "postgreSQLConfig": "ef157743cd3ef5d6",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 490,
+        "y": 2840,
+        "wires": [
+            [
+                "910dca035c2d9cd4"
+            ]
+        ]
+    },
+    {
+        "id": "81326017bc349311",
+        "type": "mqtt in",
+        "z": "7257e3445c4c2c70",
+        "name": "",
+        "topic": "gds0653/pwm",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0d16543b2ffdbac5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2840,
+        "wires": [
+            [
+                "bb86f4bcc39b15f5"
+            ]
+        ]
+    },
+    {
+        "id": "0d16543b2ffdbac5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ef157743cd3ef5d6",
+        "type": "postgreSQLConfig",
+        "name": "iot",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": 5432,
+        "portFieldType": "num",
+        "database": "iot",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": 10,
+        "maxFieldType": "num",
+        "idle": 1000,
+        "idleFieldType": "num",
+        "connectionTimeout": 10000,
+        "connectionTimeoutFieldType": "num",
+        "user": "admin",
+        "userFieldType": "str",
+        "password": "linux123",
+        "passwordFieldType": "str"
+    }
+]
