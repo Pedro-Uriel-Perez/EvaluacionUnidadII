@@ -56,6 +56,11 @@
 # Códigos Sensores  
 [Códigos Sensores KY Y MQ](https://github.com/Pedro-Uriel-Perez/EvaluacionUnidadII/tree/main/Codigos%20Sensores%20KY%20Y%20MQ)
 
+# Flujo NodeRed
+|Tipo|Codigo|
+|--|--|
+|**Flujos NodeRed**|[`flow.json`](/flujos/flow.json)|
+
 # Evidencia de soldadura
 | Imagen Uno | Imagen Dos |
 |-----------|-----------|
