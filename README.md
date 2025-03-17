@@ -9,7 +9,7 @@
 
 |**Número**|**Evidencia**|**Diagrama**|
 |--|--|--|
-|**1**|[KY-001](https://drive.google.com/file/d/1hYTIuuTP0OV7asaFfX3nkSzYbrx2A1aA/view?usp=drive_link)|<img src="https://github.com/user-attachments/assets/c1727314-5f37-4e79-b7d1-e3d83caba22f" width="100"/>|
+|**1**|[KY-001](https://drive.google.com/file/d/1hYTIuuTP0OV7asaFfX3nkSzYbrx2A1aA/view?usp=drive_link)|<img src="https://github.com/user-attachments/assets/c1727314-5f37-4e79-b7d1-e3d83caba22f" width="200"/>|
 
 
 # Ejercicios Sensores KY y MQ
