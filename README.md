@@ -7,6 +7,17 @@
 - **Materia:**  Aplicaciones de IoT
 
 
+## Listado de Sensores
+
+| **1** | **2** |
+|-------|-------|
+| [**KY-001**](https://drive.google.com/file/d/1hYTIuuTP0OV7asaFfX3nkSzYbrx2A1aA/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/c1727314-5f37-4e79-b7d1-e3d83caba22f" width="350"/> | [**KY-002**](https://drive.google.com/file/d/1YD9VnDaqEqvdPWZXczzqXCQVwvgqJfnQ/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/5b464275-7110-4dc6-a13d-1e7a43ec18c9" width="350"/> |
+| [**KY-003**](https://drive.google.com/file/d/1j9hXCKbaB65wFg4WpZDtBSXoty9vSPCr/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/4fddcc07-b9d5-4be4-a249-b92c037c391e" width="350"/> | [**KY-004**](https://drive.google.com/file/d/13Gm3IwvsELKUvLrD-SjA0qNEr3OOFlQQ/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/530be4c2-0f73-4dee-adca-b67e08c2e056" width="350"/> |
+| [**KY-005**](https://drive.google.com/file/d/1UqxGam6F-1b8ZUwY0VGiY4hjWh_T_yB7/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/1b91f3b4-69ab-4053-a15f-d6507d80a0f1" width="350"/> | [**KY-006**](https://drive.google.com/file/d/1Y0bLh7sKl2OgxIVmu3EflodIme7s27z4/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/64d64e21-a130-472e-b1f1-6a971ce3fef8" width="350"/> |
+| [**KY-008**](https://drive.google.com/file/d/1g5bUZ4eLUA7gNNuhh4EKb8ccNY5j-alY/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/d41e722b-89d7-4529-adba-c2ae1629b566" width="350"/> | [**KY-010**](https://drive.google.com/file/d/1c76M95WH4AWgxNhMI2G0KLoVPzNmhsAR/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/ce3ed578-c97b-4d91-b1c9-868bf3419b07" width="350"/> |
+| [**KY-012**](https://drive.google.com/file/d/1OMG2agXdscrC8L5XB5e2hRukiPkscXVH/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/b7bbaece-f4b1-46b9-a570-ee5ebbfaec5c" width="350"/> | [**KY-013**](https://drive.google.com/file/d/1TDlHZWUPLCUJSRHOCnvHiZNaKt8RhVtc/view?usp=drive_link) <br><img src="https://github.com/user-attachments/assets/58c52f51-4ec5-4f54-9585-d801b7ce1907" width="350"/> |
+
+
 |**Número**|**Evidencia**|**Diagrama**|
 |--|--|--|
 |**1**|[KY-001](https://drive.google.com/file/d/1hYTIuuTP0OV7asaFfX3nkSzYbrx2A1aA/view?usp=drive_link)|<img src="https://github.com/user-attachments/assets/c1727314-5f37-4e79-b7d1-e3d83caba22f" width="200"/>|
