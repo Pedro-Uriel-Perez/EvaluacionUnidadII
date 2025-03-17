@@ -59,7 +59,7 @@
 # Flujo NodeRed
 |Tipo|Codigo|
 |--|--|
-|**Flujos NodeRed**|[`flow.json`](/flujos/flow.json)|
+|**Flujos NodeRed**|[`flow.json`](https://github.com/Pedro-Uriel-Perez/EvaluacionUnidadII/blob/main/flow.json)|
 
 # Evidencia de soldadura
 | Imagen Uno | Imagen Dos |
